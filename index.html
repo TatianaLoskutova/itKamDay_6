@@ -1,18 +1,27 @@
-<input value="Hello!" />
+<input value='Hello It-kamasutra!' class='hello-message input' id='hello-message'/>
 
-<h1>РџРёРєР°Рї</h1>
+
+<h1>Пикап</h1>
 
 <ul>
-  <li>РџРѕРґСЃС‚СЂРёС‡СЊСЃСЏ</li>
-  <li>РџСЂРёРѕРґРµС‚СЊСЃСЏ</li>
-  <li>Р’С‹СѓС‡РёС‚СЊ РїР°СЂСѓ С€СѓС‚РѕРє</li>
-  <li>РџРѕРґРѕР№С‚Рё Рє РґРµРІСѓС€РєРµ</li>
-  <li>РЎРєР°Р·Р°С‚СЊ РїСЂРёРІРµС‚</li>
-  <li>Р Р°СЃСЃРєР°Р·Р°С‚СЊ РїР°СЂСѓ С€СѓС‚РѕРє</li>
-  <li>РЎРґРµР»Р°С‚СЊ СЃР°Р»СЊС‚Рѕ</li>
-  <li>Р’Р·СЏС‚СЊ РЅРѕРјРµСЂ С‚РµР»РµС„РѕРЅР°</li>
+    <li>Подстричься</li>
+    <li>Приодеться</li>
+    <li>Выучить пару шуток</li>
+    <li>Подойти к девушке</li>
+    <li>Сказать привет</li>
+    <li>Рассказать пару шуток</li>
+    <li>Сделать сальто</li>
+    <li>Взять номер телефона</li>
 </ul>
 
 <script>
+    let helloMessageElement;  // id должны быть уникальны
+    let helloMessageId;
 
+    helloMessageId = 'hello-message';
+    helloMessageElement = document.getElementById( helloMessageId);
+
+    window.alert(helloMessageElement.value);
+    window.alert(helloMessageElement.id);
+    window.alert(helloMessageElement.class);
 </script>
