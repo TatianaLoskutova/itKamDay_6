@@ -1,0 +1,15 @@
+<input value='Your name' class='first-name' id='first-name'/>
+
+<script>
+    // определяем 2 переменные
+    let firstNameEl;
+    let firstNameId;
+
+    // присваиваем переменной строку-айдишку, которую нужно найти в html
+    firstNameId = 'first-name';
+    // находим элемент по айдишнику и результат (найденный элемент) присваиваем переменной firstNameEl
+    firstNameEl = document.getElementById(firstNameId);
+
+    // алертим аттрибут value у найденного элемента
+    window.alert(firstNameEl, value);
+</script>
